@@ -12,7 +12,7 @@ namespace TCOctopusDemo.Controllers
         public ActionResult Index()
         {
             string name = WebConfigurationManager.AppSettings["ApplicationName"];
-            ViewBag.Message = String.Format("{0} this template to jump-start your ASP.NET MVC application.", name);
+            ViewBag.Message = String.Format("{0} TeamCity + Octopus Demo.", name);
 
             return View();
         }
