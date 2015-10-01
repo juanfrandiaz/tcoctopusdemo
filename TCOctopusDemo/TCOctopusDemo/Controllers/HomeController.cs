@@ -21,7 +21,7 @@ namespace TCOctopusDemo.Controllers
         {
             ViewBag.Message = "Your app description page.";
 
-            return View();
+            return View()
         }
 
         public ActionResult Contact()
